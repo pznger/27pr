@@ -1,0 +1,50 @@
+# Anaconda / Python virtual environments
+env/
+venv/
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large data files (Flickr8k ~1.1 GB, CLIP model ~600 MB from HuggingFace cache)
+data/
+*.zip
+!requirements.txt
+
+# Cache (npy embeddings, torch checkpoints)
+cache/
+
+# API keys and secrets
+.env
+*.key
+secrets.json
+
+# Output images (generated each run, don't need to track)
+outputs/
+
+# External repos (clone separately)
+第四节课/happy-llm/
+
+# Logs
+*.log
+
+# Conda environment files (user-specific, not portable)
+environment.yml
