@@ -42,6 +42,7 @@ outputs/
 
 # External repos (clone separately)
 第四节课/happy-llm/
+第八节课/hello-agents/
 
 # Logs
 *.log
