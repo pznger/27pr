@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# 训练产出
+best.pt
+*.pt
+
+# 快速测试生成的假数据
+fake_data/
+
+# API Key（不要上传）
+experiment_tracker/secrets.py
+
+# 实验追踪本地缓存（勿提交）
+swanlog/
