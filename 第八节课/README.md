@@ -12,7 +12,8 @@
 
 ```
 第八节课/
-├── 讲义.md                        ← 主讲义（hello-agents 第4~15章全文 + 源码注解）
+├── 讲义.md                        ← 主讲义（Agent 概念 + Loop Engineering 等）
+├── LangChain与LangGraph入门指南.md  ← 扩展阅读：openai 库 + LangChain + LangGraph
 ├── README.md                      ← 本文件
 └── hello-agents/                  ← Datawhale 开源项目（已克隆）
     ├── docs/                      ← 完整教程文档
@@ -101,6 +102,12 @@ cd hello-agents/code/chapter15/Helloagents-AI-Town/backend
 pip install -r requirements.txt && python main.py
 # Godot 4.2+ 导入 helloagents-ai-town/ → F5 运行
 ```
+
+---
+
+## 扩展阅读
+
+- **[LangChain与LangGraph入门指南.md](./LangChain与LangGraph入门指南.md)**：通俗讲解 `openai` 库、LangChain / LangGraph 基础组件与调用方式，以及如何用 AI 辅助开发（推荐实习前或第八周自习阅读）
 
 ---
 
